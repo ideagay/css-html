@@ -1,0 +1,12 @@
+{
+  "loading": {
+    "name": "loading",
+    "path": "/demos/loading",
+    "alias": "旋转菊花"
+  },
+  "graded": {
+    "name": "graded",
+    "path": "/demos/graded",
+    "alias": "移动渐变"
+  }
+}
