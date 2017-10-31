@@ -1,7 +1,7 @@
 <template>
     <nav class="nav-bar">
         <div class="container">
-            <h1>css&html Code</h1>
+            <h1>css&html CODE</h1>
             <router-link :to="{path: '/'}">首页</router-link>
         </div>
     </nav>

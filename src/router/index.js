@@ -4,6 +4,7 @@ import home from '@/views/home';
 import demos from '@/views/demos';
 import loading from '@/components/loading';
 import graded from '@/components/graded';
+import scheduleCircle from '@/components/schedule-circle';
 
 Vue.use(Router);
 
@@ -26,6 +27,10 @@ export default new Router({
                 {
                     path: 'graded',
                     component: graded
+                },
+                {
+                    path: 'schedule-circle',
+                    component: scheduleCircle
                 }
             ]
         }

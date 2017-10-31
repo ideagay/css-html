@@ -8,5 +8,10 @@
     "name": "graded",
     "path": "/demos/graded",
     "alias": "移动渐变"
+  },
+  "schedule-circle": {
+    "name": "schedule-circle",
+    "path": "/demos/schedule-circle",
+    "alias": "环形进度"
   }
 }
