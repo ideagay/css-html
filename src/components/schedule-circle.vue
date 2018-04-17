@@ -6,7 +6,7 @@
             <svg :width="sWidth" :height="sHeight" class="schedule-circle">
                 <circle :r="r" :cx="cx" :cy="cy" fill="none" class="circle1"></circle>
                 <circle :r="r" :cx="cx" :cy="cy" fill="none" class="circle2" ref="circle2"></circle>
-                <text :x="cx - 10" :y="cy + 5" class="text">{{step}}%</text>
+                <text :x="cx + 10" :y="cy + 15" class="text">{{step}}%</text>
             </svg>
             <h3>
             设置百分比 : <input v-model="percent" @change="init(percent)"/>
@@ -31,7 +31,7 @@ export default {
     },
     methods: {
         init (percent) {
-            let perimeter = Math.PI * 2 * 50;
+            let perimeter = Math.PI * 2 * 40;
             this.step = 0;
             let timer = setInterval(() => {
                 this.step++;

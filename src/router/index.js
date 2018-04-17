@@ -5,6 +5,7 @@ import demos from '@/views/demos';
 import loading from '@/components/loading';
 import graded from '@/components/graded';
 import scheduleCircle from '@/components/schedule-circle';
+import modMore from '@/components/mod-more';
 
 Vue.use(Router);
 
@@ -31,6 +32,10 @@ export default new Router({
                 {
                     path: 'schedule-circle',
                     component: scheduleCircle
+                },
+                {
+                    path: 'mod-more',
+                    component: modMore
                 }
             ]
         }

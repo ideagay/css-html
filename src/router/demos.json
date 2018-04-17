@@ -13,5 +13,10 @@
     "name": "schedule-circle",
     "path": "/demos/schedule-circle",
     "alias": "环形进度"
+  },
+  "mod-more": {
+    "name": "mod-more",
+    "path": "/demos/mod-more",
+    "alias": "多行省略号"
   }
 }
